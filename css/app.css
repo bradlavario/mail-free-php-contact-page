@@ -1,0 +1,93 @@
+body{
+  	background-image: url("http://bradlavario.info/images/background.jpg");
+    background-repeat: repeat;
+}
+ 
+#section-container
+  {  
+    width: 800px;
+    height: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+  /*background-color: black;*/
+    outline-style: solid;
+    outline-color: black;
+  outline-width: thick;
+    box-shadow:
+            inset 0 0 50px #000,
+            inset 0 0 50px #000,
+            inset 0 0 50px #000;
+  
+  }
+  
+#section-title h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 4px;
+  margin-left: 40px;
+    font-size: 4em;
+  color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+#page-wrap {
+	width: 550px;
+	padding: 20px 50px 20px 50px;
+	margin: 10px auto;
+	min-height: 400px;
+	height: auto !important;
+	height: 400px;
+}
+
+#page-wrap {color: gray;}
+#page-wrap a:link{color: orange;}
+#page-wrap a:visited{color: orange;}
+#page-wrap a:hover{color: #00FF00;}
+#page-wrap a:hover{text-decoration: none;}
+
+#contact-area {
+	width: 430px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 300px;
+	font-size: 1 em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #999;
+}
+
+#contact-area textarea {
+	height: 80px;
+}
+
+#page-wrap a {
+   	font-family: Helvetica, sans-serif;
+	font-size: 1 em;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.2em;
+}
